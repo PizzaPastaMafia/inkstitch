@@ -42,19 +42,19 @@ Se disponi di un processore ARM, assicurati che Rosetta sia installato con `soft
 
 **High Sierra / Mojave / Catalina / Big Sur / Monterey:** Seguire le [istruzioni per i rilasci non autenticati.](#xxxx-cannot-be-opened-because-the-developer-cannot-be-verified)
 
-Fai clic su `Continua` .
+Click on `Continue`.
 
 ![Installa inchiostro/punto](/assets/images/docs/en/macos-install/installer01.png)
 
-Fai clic su `Installa` .
+Click on `Install`.
 
 ![Installa inchiostro/punto](/assets/images/docs/en/macos-install/installer02.png)
 
-Si aprirà una finestra di dialogo per l'inserimento della password. Inserisci la tua password utente e fai clic su `Installa Software` .
+A password prompt will open. Enter your user password and click on `Install Software`.
 
 ![Installa inchiostro/punto](/assets/images/docs/en/macos-install/installer03.png)
 
-In alcuni casi il sistema invierà una richiesta se si consente al programma di installazione di salvare i file nella directory home. Ink/Stitch deve trovarsi nella cartella delle estensioni di Inkscape. Pertanto, rispondi a questa domanda con `Si` . {: .notice--info }
+In some cases your system will send a request, if you allow the installer to save files into your home directory. Ink/Stitch needs to be in the Inkscape extensions folder. Therefore answer this question with `Yes`. {: .notice--info }
 
 L'installazione è ora completa.
 
@@ -80,7 +80,7 @@ brew install inkstitch
 
 ## Run Ink/Stitch
 
-Apri Inkscape. Troverai Ink/Stitch in `Estensioni > Ink/Stitch` .
+Open Inkscape. You will find Ink/Stitch under `Extensions > Ink/Stitch`.
 
 ![Menu Inchiostro/Punto](/assets/images/docs/en/macos-install/inkstitch-extensions-menu.png)
 
@@ -99,7 +99,7 @@ Le installazioni precedenti alla versione 2.1.0 devono essere rimosse manualment
 Questo messaggio viene visualizzato per le versioni destinate a sistemi macOS meno recenti e per le versioni di sviluppo.
 
 - `Control + Click` sul file scaricato
-- Seleziona `Apri` dal menu contestuale
+- Choose `Open` from the context menu
 - Se richiesto, inserisci il tuo nome utente e la password di amministratore per avviare il programma di installazione.
 
 ### Installazione non riuscita
@@ -110,17 +110,17 @@ Per Ventura e versioni successive: [scarica ZIP (intel)]({{ site.github.releases
 
 Per le versioni precedenti di macOS [scarica il file ZIP]({{ site.github.releases_url }}/latest/download/inkstitch-{{ tag_name }}-old-osx-x86_64.zip)
 
-### L'Ink/stitch non scorre / è disattivato (in grigio)
+### Ink/Stitch doesn't run / is greyed out
 
 **Conferma il percorso di installazione**
 
-Controlla di aver estratto Ink/Stitch nella cartella corretta. Se la `Cartella estensioni utente` non funziona correttamente, puoi provare a installarlo anche nella `Cartella estensioni Inkscape` . Puoi trovarla anche in `Inkscape > Preferenze > Sistema` .
+Check if you extracted Ink/Stitch into the correct folder. If the `User extensions folder` doesn't work out correctly, you can also try to install into the `Inkscape extensions folder`. You can also look it up under `Inkscape > Preferences > System`.
 
 **Conferma la versione**
 
 Verifica di aver scaricato Ink/Stitch per la tua versione di macOS ( [Scarica](#download) ).
 
-### Ink/Stitch è visualizzato in inglese
+### Ink/Stitch is displayed in English
 
 **Traduzione incompleta**
 
@@ -136,9 +136,9 @@ Se Inkscape/Stitch non è sicuro di quale lingua supportare, utilizzerà l'ingle
 
 ![Preferenze > Interfaccia](/assets/images/docs/en/preferences_language.png)
 
-## Disinstallare Ink/Stitch
+## Uninstall Ink/Stitch
 
-Vai su `Inkscape > Preferenze > Sistema` e apri la cartella delle estensioni.
+Go to `Inkscape > Preferences > System` and open your extensions folder.
 
 ![cartella delle estensioni di Inkscape](/assets/images/docs/en/extensions-folder-location-macos.jpg)
 
